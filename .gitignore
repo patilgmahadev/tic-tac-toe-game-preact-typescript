@@ -1,0 +1,13 @@
+node_modules
+*.iml
+.vscode
+.idea
+.reports
+.nfs*
+dist
+.cache
+.karma-parcel-workspace
+.karma-parcel
+.DS_Store
+.idea
+package-lock.json
