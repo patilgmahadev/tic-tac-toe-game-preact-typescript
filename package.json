@@ -1,0 +1,29 @@
+{
+  "name": "fe-hiring-skeleton",
+  "version": "0.0.0",
+  "description": "Julius Baer Frontent Hiring Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "karma start",
+    "watch": "karma start --auto-watch --no-single-run"
+  },
+  "author": "Julius Baer",
+  "dependencies": {
+    "@babel/preset-env": "^7.14.1",
+    "@types/mocha": "^8.2.2",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-parcel": "^0.5.2",
+    "mocha": "^8.4.0",
+    "node-forge": "0.10.0",
+    "parcel-bundler": "^1.12.5",
+    "preact": "^8.5.2",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
